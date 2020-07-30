@@ -22,6 +22,7 @@ import "tree-sitter-haskell" TreeSitter.Haskell ()
 import "tree-sitter-python" TreeSitter.Python ()
 import "amazonka" Network.AWS ()
 import "amazonka-s3" Network.AWS.S3 ()
+import "monad-bayes" Control.Monad.Bayes.Class ()
 
 main :: IO ()
 main = runResourceT . runConduit
